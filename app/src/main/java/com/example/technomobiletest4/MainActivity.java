@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity  implements View.OnClickListener{
 
-    private TextView register;
+    private TextView register,forgotPassword;
     private EditText editTextemail , editTextPassword;
     private Button signIn;
     private ImageView Image;
@@ -42,8 +42,11 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
         signIn =(Button) findViewById(R.id.SignIn);
         signIn.setOnClickListener(this);
 
-        Image =(ImageView) findViewById(R.id.imageID) ;
+        Image =(ImageView) findViewById(R.id.AddminLogingg) ;
         Image.setOnClickListener(this);
+
+        forgotPassword = (TextView) findViewById(R.id.forgotPwID);
+        forgotPassword.setOnClickListener(this);
 
         editTextemail = (EditText) findViewById(R.id.emailL);
         editTextPassword = (EditText) findViewById(R.id.passwordL);
@@ -62,8 +65,12 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
                 userLogin();
                 break;
 
-            case R.id.imageID:
+            case R.id.AddminLogingg:
                 startActivity(new Intent(this,Admin.class));
+                break;
+
+            case R.id.forgotPwID:
+                startActivity(new Intent(this,ForgotPassword.class));
                 break;
 
 
