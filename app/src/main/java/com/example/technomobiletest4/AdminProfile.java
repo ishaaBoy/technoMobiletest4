@@ -25,7 +25,7 @@ public class AdminProfile extends AppCompatActivity {
         createPost.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent A = new Intent(AdminProfile.this,ishara.class);
+                Intent A = new Intent(AdminProfile.this,AddPhones.class);
                 startActivity(A);
             }
         });
