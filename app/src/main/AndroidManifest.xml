@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TechnoMobiletest4">
         <activity
+            android:name=".AllSamsungPhones"
+            android:exported="false" />
+        <activity
             android:name=".AllApplePhones"
             android:exported="false" />
         <activity
