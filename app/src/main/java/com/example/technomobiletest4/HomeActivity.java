@@ -24,6 +24,9 @@ public class HomeActivity extends AppCompatActivity {
                 Intent R = new Intent(HomeActivity.this,ProfileActivity.class);
                 startActivity(R);
             }
+
+
+            
         });
     }
 }
