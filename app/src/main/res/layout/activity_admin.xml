@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/applex"
     tools:context=".Admin">
 
     <EditText
@@ -15,12 +16,12 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.14"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/emailL"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
 
 
     <TextView
@@ -30,6 +31,7 @@
         android:layout_marginStart="64dp"
         android:layout_marginTop="80dp"
         android:text="REGISTER"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.719"
@@ -61,6 +63,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="80dp"
         android:text="FORGOT PASSWORD"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/SignIn"
@@ -94,12 +97,12 @@
         android:ems="10"
         android:hint="Email Address"
         android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.14"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="@+id/guideline6"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
 
 
     <androidx.constraintlayout.widget.Guideline
