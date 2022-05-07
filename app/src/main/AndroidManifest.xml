@@ -10,16 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TechnoMobiletest4">
         <activity
-            android:name=".ForgotPassword"
+            android:name=".AllPhoneCatagory"
             android:exported="false" />
         <activity
             android:name=".ishara"
             android:exported="false" />
         <activity
             android:name=".thela"
-            android:exported="false" />
-        <activity
-            android:name=".SplashScreen"
             android:exported="false" />
         <activity
             android:name=".ShowActivity"
@@ -50,7 +47,7 @@
             android:exported="false" />
         <activity
             android:name=".AddPhones"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".AddPostActivity"
             android:exported="false" />
@@ -58,7 +55,6 @@
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
-            
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
