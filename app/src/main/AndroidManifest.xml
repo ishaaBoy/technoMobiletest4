@@ -13,6 +13,12 @@
             android:name=".payment"
             android:exported="false" />
         <activity
+            android:name=".NavigationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
             android:name=".AllSamsungPhones"
             android:exported="false" />
         <activity

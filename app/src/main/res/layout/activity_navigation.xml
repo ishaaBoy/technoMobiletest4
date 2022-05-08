@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_13"
+    tools:context=".NavigationActivity">
+
+    <Button
+        android:id="@+id/GoProfile"
+        android:layout_width="410dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="216dp"
+        android:text="PROFILE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/GoRatings"
+        android:layout_width="410dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="40dp"
+        android:text="RATINGS AND REVIEW"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GoProfile" />
+
+    <Button
+        android:id="@+id/GoCategory"
+        android:layout_width="410dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="40dp"
+        android:text="CATEGORY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GoRatings" />
+
+    <Button
+        android:id="@+id/GoContactUs"
+        android:layout_width="410dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="40dp"
+        android:text="CONTACT US"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GoCategory" />
+
+    <Button
+        android:id="@+id/GoAboutUs"
+        android:layout_width="410dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="40dp"
+        android:text="ABOUT US"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GoContactUs" />
+</androidx.constraintlayout.widget.ConstraintLayout>
