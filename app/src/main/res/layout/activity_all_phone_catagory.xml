@@ -86,14 +86,15 @@
                 android:textSize="30sp" />
 
             <Button
+                android:id="@+id/GoSamsungPhone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"
                 android:background="#00000000"
                 android:padding="20dp"
                 android:text="expand all"
-                android:textColor="#FFFFFF"
-                android:layout_alignParentRight="true"/>
+                android:textColor="#FFFFFF" />
 
         </RelativeLayout>
 
