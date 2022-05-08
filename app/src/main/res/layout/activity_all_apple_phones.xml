@@ -113,10 +113,10 @@
                 android:textColor="#000000" />
 
             <ImageView
-                android:layout_width="150dp"
+                android:layout_width="140dp"
                 android:layout_height="150dp"
                 android:layout_alignParentRight="true"
-                android:src="@drawable/applephone" />
+                android:src="@drawable/iphone12promax" />
 
 
         </RelativeLayout>
@@ -134,7 +134,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="iPhone 7s"
+                android:text="iPhone 7+"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -158,10 +158,10 @@
                 android:textColor="#000000" />
 
             <ImageView
-                android:layout_width="150dp"
+                android:layout_width="130dp"
                 android:layout_height="150dp"
                 android:layout_alignParentRight="true"
-                android:src="@drawable/applephone" />
+                android:src="@drawable/iphone7plus" />
 
 
         </RelativeLayout>
@@ -206,7 +206,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_alignParentRight="true"
-                android:src="@drawable/applephone" />
+                android:src="@drawable/iphone11" />
 
 
         </RelativeLayout>
