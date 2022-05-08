@@ -14,7 +14,7 @@ public class NavigationActivity extends AppCompatActivity {
 
 
     private Button GoCategory;
-    //private Button GoReview;
+    private Button GoReview;
 
 
     @Override
@@ -37,6 +37,15 @@ public class NavigationActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent Q = new Intent(NavigationActivity.this,AllPhoneCatagory.class);
+                startActivity(Q);
+            }
+        });
+
+        GoReview = (Button) findViewById(R.id.GoRatings);
+        GoReview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent Q = new Intent(NavigationActivity.this,AddReview.class);
                 startActivity(Q);
             }
         });
