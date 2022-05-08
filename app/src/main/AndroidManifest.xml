@@ -11,6 +11,35 @@
         android:theme="@style/Theme.TechnoMobiletest4">
 
         <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".viewpromotion3"
+            android:exported="false" />
+        <activity
+            android:name=".viewpromotion2"
+            android:exported="false" />
+        <activity
+            android:name=".Viewpramotion"
+            android:exported="false" />
+        <activity
+            android:name=".Huawei"
+            android:exported="false" />
+        <activity
+            android:name=".Vivo"
+            android:exported="false" />
+        <activity
+            android:name=".Samsung"
+            android:exported="false" />
+        <activity
+            android:name=".iphone01"
+            android:exported="false" />
+        <activity
+            android:name=".Pramotionmain"
+            android:exported="false" />
+
+
+        <activity
             android:name=".AddReview"
             android:exported="false"/>
 
