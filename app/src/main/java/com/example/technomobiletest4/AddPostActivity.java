@@ -58,6 +58,27 @@ public class AddPostActivity extends AppCompatActivity {
         map.put("price",price.getText().toString());
         map.put("mpurl",mpurl.getText().toString());
 
+        String txtPrice=price.getText().toString().trim();
+        String txtBrand=brand.getText().toString().trim();
+
+
+
+        if(txtPrice.isEmpty()){
+
+            price.setError("Price is required!");
+            price.requestFocus();
+            return;
+        }
+
+        if(txtBrand.isEmpty()){
+
+            brand.setError("Brand field couldnt be empty!");
+            brand.requestFocus();
+            return;
+        }
+
+
+
         FirebaseDatabase.getInstance().getReference().child("mobile phones").push()
                 .setValue(map)
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
@@ -75,6 +96,9 @@ public class AddPostActivity extends AppCompatActivity {
                 });
 
     }
+
+
+
 
     private void clearAll()
     {
