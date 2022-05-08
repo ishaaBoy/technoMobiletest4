@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".UpdateReview">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="900px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90px"
+            android:layout_marginRight="90px"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:layout_marginTop="20px"
+                android:text="Viewing Page"
+                android:textColor="@color/black"
+                android:textSize="70px"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Name"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="20dp"
+                android:hint="Name"
+                android:text="Gihan Madushan"
+                android:textColor="#80ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Edit Review"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editReview"
+                android:layout_width="match_parent"
+                android:layout_height="133dp"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Review"
+                android:textColor="#80ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Edit Rating"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />/>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="match_parent"
+                android:layout_height="170px"
+                android:layout_marginTop="20dp"
+                android:background="#8cb8ff"
+
+
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="160px"
+                android:backgroundTint="#F9B022"
+                android:text="Update"
+                android:textColor="@color/white"
+                android:textSize="45px"
+                android:textStyle="bold"
+                app:cornerRadius="30dp"
+                android:layout_marginTop="30px"
+                >
+
+            </Button>
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="160px"
+                android:backgroundTint="#00F9B022"
+                android:text="BACK"
+                android:textColor="#80000000"
+                android:textSize="35px"
+                android:textStyle="bold"
+                app:cornerRadius="30dp"
+                android:layout_marginTop="30px"
+                android:layout_marginBottom="50px">
+
+
+
+            </Button>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

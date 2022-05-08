@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".AddReview">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="900px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90px"
+            android:layout_marginRight="90px"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Review and Rating"
+                android:textSize="70px"
+                android:gravity="center"
+                android:textStyle="bold"
+
+                android:layout_marginTop="20px"
+                android:textColor="@color/black"
+                >
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Add Review"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#ffffff"/>
+
+            <EditText
+                android:id="@+id/enterreview"
+                android:layout_width="match_parent"
+                android:layout_height="133dp"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Review"
+                android:textColor="#80ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Add Rating"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#ffffff"/>/>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="match_parent"
+                android:layout_height="170px"
+                android:layout_marginTop="20dp"
+
+
+
+                />
+
+            <Button
+                android:id="@+id/SubmitBid"
+                android:layout_width="match_parent"
+                android:layout_height="160px"
+                android:backgroundTint="#F9B022"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:textSize="45px"
+                android:textStyle="bold"
+                app:cornerRadius="30dp"
+                android:layout_marginTop="30px"
+                >
+
+            </Button>
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="160px"
+                android:backgroundTint="#00F9B022"
+                android:text="BACK"
+                android:textColor="#80000000"
+                android:textSize="35px"
+                android:textStyle="bold"
+                app:cornerRadius="30dp"
+                android:layout_marginTop="30px"
+                android:layout_marginBottom="50px">
+
+
+
+            </Button>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
