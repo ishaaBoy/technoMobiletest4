@@ -72,7 +72,7 @@
         android:layout_height="51dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="16dp"
-        android:text="Add Your Note"
+        android:text="Add Your Reminder"
         android:textColor="@color/purple_700"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
