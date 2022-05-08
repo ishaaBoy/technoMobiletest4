@@ -36,7 +36,7 @@ public class NavigationActivity extends AppCompatActivity {
         GoCategory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent Q = new Intent(NavigationActivity.this,AllPhoneCategory.class);
+                Intent Q = new Intent(NavigationActivity.this,AllPhoneCatagory.class);
                 startActivity(Q);
             }
         });
