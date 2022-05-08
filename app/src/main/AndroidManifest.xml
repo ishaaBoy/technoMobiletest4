@@ -16,13 +16,19 @@
             android:name=".ForgotPassword"
             android:exported="false" />
         <activity
+            android:name=".AllSamsungPhones"
+            android:exported="false" />
+        <activity
+            android:name=".AllApplePhones"
+            android:exported="false" />
+        <activity
+            android:name=".AllPhoneCatagory"
+            android:exported="false" />
+        <activity
             android:name=".ishara"
             android:exported="false" />
         <activity
             android:name=".thela"
-            android:exported="false" />
-        <activity
-            android:name=".SplashScreen"
             android:exported="false" />
         <activity
             android:name=".ShowActivity"
@@ -62,7 +68,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
