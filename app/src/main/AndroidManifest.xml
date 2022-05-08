@@ -71,6 +71,10 @@
         <activity
             android:name=".AddPostActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".UpdateReview"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
