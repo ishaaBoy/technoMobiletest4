@@ -13,7 +13,7 @@ public class NavigationActivity extends AppCompatActivity {
     private Button GoProfile,GoContactUs,GoAboutUs;
 
 
-    //private Button GoCategory;
+    private Button GoCategory;
     //private Button GoReview;
 
 
@@ -29,6 +29,15 @@ public class NavigationActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent P = new Intent(NavigationActivity.this,ProfileActivity.class);
                 startActivity(P);
+            }
+        });
+
+        GoCategory = (Button) findViewById(R.id.GoCategory);
+        GoCategory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent Q = new Intent(NavigationActivity.this,AllPhoneCatagory.class);
+                startActivity(Q);
             }
         });
 
