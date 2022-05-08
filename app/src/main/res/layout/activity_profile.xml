@@ -11,60 +11,82 @@
         android:id="@+id/signOut"
         android:layout_width="165dp"
         android:layout_height="44dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="252dp"
         android:text="LOG OUT"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBaseline_toBaselineOf="@+id/More"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ageT"
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/emailAddressTitle"
-        android:layout_width="262dp"
-        android:layout_height="28dp"
-        android:background="@color/white"
+        android:layout_width="364dp"
+        android:layout_height="62dp"
+        android:background="#00BCD4"
         android:text="Email Address"
-        app:layout_constraintStart_toStartOf="@+id/guideline8"
-        app:layout_constraintTop_toTopOf="@+id/guideline9" />
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/ageT"
-        android:layout_width="262dp"
-        android:layout_height="28dp"
-        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        android:layout_width="294dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFEB3B"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ageTitle" />
 
     <TextView
         android:id="@+id/ageTitle"
-        android:layout_width="262dp"
-        android:layout_height="28dp"
+        android:layout_width="362dp"
+        android:layout_height="66dp"
+        android:background="#FFEB3B"
         android:text="Age"
-        app:layout_constraintStart_toStartOf="@+id/guideline8"
-        app:layout_constraintTop_toTopOf="@+id/guideline11" />
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline10" />
 
     <TextView
         android:id="@+id/nameT"
-        android:layout_width="262dp"
-        android:layout_height="28dp"
-        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        android:layout_width="297dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/purple_200"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameTitle" />
 
     <TextView
         android:id="@+id/nameTitle"
-        android:layout_width="262dp"
-        android:layout_height="28dp"
+        android:layout_width="363dp"
+        android:layout_height="70dp"
+        android:background="@color/purple_200"
         android:text="Name"
-        app:layout_constraintStart_toStartOf="@+id/guideline8"
-        app:layout_constraintTop_toTopOf="@+id/guideline10" />
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline9" />
 
     <TextView
         android:id="@+id/emailAddress"
-        android:layout_width="262dp"
-        android:layout_height="28dp"
-        android:background="@color/white"
-        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        android:layout_width="282dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:background="#00BCD4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailAddressTitle" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -72,39 +94,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp" />
+        app:layout_constraintGuide_begin="395dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="49dp" />
+        app:layout_constraintGuide_begin="140dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="121dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="196dp" />
-
-    <Button
-        android:id="@+id/More"
-        android:layout_width="174dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="36dp"
-        android:text="More"
-        app:layout_constraintEnd_toStartOf="@+id/signOut"
-        app:layout_constraintTop_toBottomOf="@+id/ageT"
-        tools:ignore="TouchTargetSizeCheck" />
+        app:layout_constraintGuide_begin="313dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
