@@ -11,7 +11,8 @@ import android.widget.ImageView;
 public class HomeActivity extends AppCompatActivity {
 
 
-   private ImageView imgView;
+    private ImageView imgView;
+    private Button newshopnow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,15 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent G = new Intent(HomeActivity.this,NavigationActivity.class);
                 startActivity(G);
+            }
+        });
+
+        newshopnow = (Button) findViewById(R.id.newshopnow);
+        newshopnow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent H = new Intent(HomeActivity.this,view_phones.class);
+                startActivity(H);
             }
         });
 
