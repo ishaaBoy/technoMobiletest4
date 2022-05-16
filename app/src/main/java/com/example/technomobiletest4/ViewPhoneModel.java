@@ -10,11 +10,11 @@ public class ViewPhoneModel {
     }
 
     public ViewPhoneModel(String brand, String pmodel, String mpurl, String price, String storage) {
-        this.brand = brand;
-        this.pmodel = pmodel;
-        this.mpurl = mpurl;
-        this.price = price;
-        this.storage = storage;
+         this.brand = brand;
+         this.pmodel = pmodel;
+         this.mpurl = mpurl;
+         this.price = price;
+         this.storage = storage;
     }
 
     public String getBrand() {
