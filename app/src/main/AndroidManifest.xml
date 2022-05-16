@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TechnoMobiletest4">
         <activity
+            android:name=".ViewPhoneByCus"
+            android:exported="false" />
+        <activity
             android:name=".view_phones"
             android:exported="false" />
         <activity
