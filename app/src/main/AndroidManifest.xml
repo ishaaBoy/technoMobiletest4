@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TechnoMobiletest4">
         <activity
-            android:name=".view_cus_phone"
+            android:name=".ViewPhoneByCus"
             android:exported="false" />
         <activity
             android:name=".view_phones"
@@ -62,9 +62,6 @@
             android:exported="false" />
         <activity
             android:name=".AllPhoneCatagory"
-            android:exported="false" />
-        <activity
-            android:name=".ishara"
             android:exported="false" />
         <activity
             android:name=".thela"

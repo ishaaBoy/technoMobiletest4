@@ -14,7 +14,7 @@ import com.firebase.ui.database.FirebaseRecyclerOptions;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-public class ViewPhoneAdapter extends FirebaseRecyclerAdapter<com.example.technomobiletest4.ViewPhoneModel, ViewPhoneAdapter.myViewHolder> {
+public class ViewPhoneAdapter extends FirebaseRecyclerAdapter<ViewPhoneModel, ViewPhoneAdapter.myViewHolder> {
 
     /**
      * Initialize a {@link RecyclerView.Adapter} that listens to a Firebase query. See
@@ -44,7 +44,7 @@ public class ViewPhoneAdapter extends FirebaseRecyclerAdapter<com.example.techno
     @NonNull
     @Override
     public myViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.view_phone_item,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.view_cus_pitem,parent,false);
         return new myViewHolder(view);
     }
 
