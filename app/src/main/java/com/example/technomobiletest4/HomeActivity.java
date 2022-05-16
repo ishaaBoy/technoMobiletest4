@@ -33,8 +33,8 @@ public class HomeActivity extends AppCompatActivity {
         newshopnow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent H = new Intent(HomeActivity.this,ViewPhonesCus.class);
-                startActivity(H);
+                Intent Z = new Intent(HomeActivity.this,ViewPhonesCus.class);
+                startActivity(Z);
             }
         });
 
