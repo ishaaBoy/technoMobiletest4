@@ -22,9 +22,9 @@ public class ViewPhonesCus extends AppCompatActivity {
         recyclerView = (RecyclerView) findViewById(R.id.rv2);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        FirebaseRecyclerOptions<ViewPhoneModel> options =
-                new FirebaseRecyclerOptions.Builder<ViewPhoneModel>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("mobile phones"), ViewPhoneModel.class)
+        FirebaseRecyclerOptions<com.example.technomobiletest4.ViewPhoneModel> options =
+                new FirebaseRecyclerOptions.Builder<com.example.technomobiletest4.ViewPhoneModel>()
+                        .setQuery(FirebaseDatabase.getInstance().getReference().child("mobile phones"), com.example.technomobiletest4.ViewPhoneModel.class)
                         .build();
 
         viewPhoneAdapter = new ViewPhoneAdapter(options);
