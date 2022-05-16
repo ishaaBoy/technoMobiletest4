@@ -14,7 +14,7 @@ import com.firebase.ui.database.FirebaseRecyclerOptions;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-public class ViewPhoneAdapter extends FirebaseRecyclerAdapter<ViewPhoneModel, ViewPhoneAdapter.myViewHolder> {
+public class ViewPhoneAdapter extends FirebaseRecyclerAdapter<com.example.technomobiletest4.ViewPhoneModel, ViewPhoneAdapter.myViewHolder> {
 
     /**
      * Initialize a {@link RecyclerView.Adapter} that listens to a Firebase query. See
