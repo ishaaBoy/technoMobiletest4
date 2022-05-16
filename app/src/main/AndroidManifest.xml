@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TechnoMobiletest4">
-
+        <activity
+            android:name=".view_cus_phone"
+            android:exported="false" />
+        <activity
+            android:name=".view_phones"
+            android:exported="false" />
         <activity
             android:name=".MainActivity4"
             android:exported="false" />
@@ -37,12 +42,9 @@
         <activity
             android:name=".Pramotionmain"
             android:exported="false" />
-
-
         <activity
             android:name=".AddReview"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
             android:name=".payment"
             android:exported="false" />
@@ -100,7 +102,6 @@
         <activity
             android:name=".AddPostActivity"
             android:exported="false" />
-
         <activity
             android:name=".UpdateReview"
             android:exported="false" />
