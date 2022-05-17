@@ -101,13 +101,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="172dp"
-        android:layout_marginLeft="172dp"
         android:layout_marginTop="460dp"
         android:layout_marginEnd="210dp"
-        android:layout_marginRight="210dp"
+        android:layout_marginBottom="337dp"
         android:text=" MEMORY - 128GB"
         android:textColor="#434141"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
         app:layout_constraintStart_toStartOf="@+id/imageView7"
         app:layout_constraintTop_toTopOf="@+id/imageView7" />
@@ -117,32 +117,32 @@
         android:layout_width="120dp"
         android:layout_height="25dp"
         android:layout_marginStart="174dp"
-        android:layout_marginLeft="174dp"
+        android:layout_marginTop="498dp"
         android:layout_marginEnd="207dp"
-        android:layout_marginRight="207dp"
         android:layout_marginBottom="291dp"
         android:text="NETWORK - 5G"
         android:textColor="#434141"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
-        app:layout_constraintStart_toStartOf="@+id/imageView7" />
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="116dp"
         android:layout_height="26dp"
         android:layout_marginStart="173dp"
-        android:layout_marginLeft="173dp"
+        android:layout_marginTop="548dp"
         android:layout_marginEnd="211dp"
-        android:layout_marginRight="211dp"
         android:layout_marginBottom="240dp"
         android:text="RAM - 6Gb"
         android:textColor="#434141"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
-        app:layout_constraintStart_toStartOf="@+id/imageView7" />
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
 
     <TextView
         android:id="@+id/textView18"

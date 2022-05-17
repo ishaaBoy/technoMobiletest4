@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TechnoMobiletest4">
-
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Addpramotion5366Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Checking5366Activity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity4"
             android:exported="false" />
@@ -37,12 +45,9 @@
         <activity
             android:name=".Pramotionmain"
             android:exported="false" />
-
-
         <activity
             android:name=".AddReview"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
             android:name=".payment"
             android:exported="false" />
@@ -63,9 +68,6 @@
             android:exported="false" />
         <activity
             android:name=".ishara"
-            android:exported="false" />
-        <activity
-            android:name=".thela"
             android:exported="false" />
         <activity
             android:name=".ShowActivity"
@@ -100,12 +102,11 @@
         <activity
             android:name=".AddPostActivity"
             android:exported="false" />
-
         <activity
             android:name=".UpdateReview"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Form5366Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
