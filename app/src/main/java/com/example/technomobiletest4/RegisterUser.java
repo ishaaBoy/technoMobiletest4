@@ -62,8 +62,7 @@ public class RegisterUser extends AppCompatActivity implements View.OnClickListe
             case R.id.registerUser:
                 registerUser();
                 break;
-
-
+                
         }
 
     }

@@ -16,7 +16,10 @@
             android:name=".Checking5366Activity"
             android:exported="false" />
         <activity
-            android:name=".Form5366Activity"
+            android:name=".ViewPhoneByCus"
+            android:exported="false" />
+        <activity
+            android:name=".view_phones"
             android:exported="false" />
         <activity
             android:name=".MainActivity4"
@@ -67,7 +70,10 @@
             android:name=".AllPhoneCatagory"
             android:exported="false" />
         <activity
-            android:name=".ishara"
+
+
+            android:name=".thela"
+
             android:exported="false" />
         <activity
             android:name=".ShowActivity"
