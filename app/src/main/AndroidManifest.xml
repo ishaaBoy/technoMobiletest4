@@ -13,10 +13,10 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".Addpramotion5366Activity"
+            android:name=".Checking5366Activity"
             android:exported="false" />
         <activity
-            android:name=".Checking5366Activity"
+            android:name=".Form5366Activity"
             android:exported="false" />
         <activity
             android:name=".MainActivity4"
@@ -31,7 +31,7 @@
             android:name=".Viewpramotion"
             android:exported="false" />
         <activity
-            android:name=".Huawei"
+            android:name=".Addpramotion5366Activity"
             android:exported="false" />
         <activity
             android:name=".Vivo"
@@ -106,7 +106,7 @@
             android:name=".UpdateReview"
             android:exported="false" />
         <activity
-            android:name=".Form5366Activity"
+            android:name=".Huawei"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

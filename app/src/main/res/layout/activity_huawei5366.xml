@@ -11,9 +11,11 @@
         android:layout_width="600dp"
         android:layout_height="831dp"
         android:visibility="visible"
-        app:srcCompat="@drawable/b2b57d79b56c02b0a2c08dfdb07c520c"
-        tools:layout_editor_absoluteX="-99dp"
-        tools:layout_editor_absoluteY="-16dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/b2b57d79b56c02b0a2c08dfdb07c520c" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar3"
@@ -30,27 +32,26 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="80dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:srcCompat="@drawable/huawei" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="169dp"
         android:layout_height="43dp"
+        android:layout_marginStart="232dp"
         android:layout_marginEnd="104dp"
-        android:layout_marginRight="104dp"
         android:text="Promotion"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
         app:layout_constraintTop_toTopOf="@+id/toolbar3"
         app:layout_constraintVertical_bias="0.049" />
 
@@ -59,14 +60,9 @@
         android:id="@+id/imageView2"
         android:layout_width="35dp"
         android:layout_height="40dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginBottom="136dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
-        app:layout_constraintEnd_toStartOf="@+id/textView5"
-        app:layout_constraintHorizontal_bias="0.04"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/back_3" />
+        app:srcCompat="@drawable/back_3"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="48dp" />
 
     <TextView
         android:id="@+id/textView7"
