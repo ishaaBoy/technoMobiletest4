@@ -68,7 +68,7 @@ public class AddReview extends AppCompatActivity {
                     public void onSuccess(Void unused) {
 
 
-                        Toast.makeText(AddReview.this, "Added Success", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(AddReview.this, "Added Successfully", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(AddReview.this, UpdateReview.class);
                         startActivity(intent);
                     }
