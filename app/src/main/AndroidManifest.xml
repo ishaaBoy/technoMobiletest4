@@ -9,9 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TechnoMobiletest4">
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
+
         <activity
             android:name=".Checking5366Activity"
             android:exported="false" />
@@ -107,7 +105,14 @@
             android:exported="false" />
         <activity
             android:name=".AdminProfile"
+            android:exported="false"/>
+        <activity
+            android:name=".Huawei"
+            android:exported="false"/>
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

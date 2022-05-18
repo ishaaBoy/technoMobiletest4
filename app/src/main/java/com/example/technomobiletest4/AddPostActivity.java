@@ -37,7 +37,7 @@ public class AddPostActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 insertData();
-                clearAll();
+
             }
         });
 
