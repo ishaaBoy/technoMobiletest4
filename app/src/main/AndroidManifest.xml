@@ -34,7 +34,7 @@
             android:name=".Viewpramotion"
             android:exported="false" />
         <activity
-            android:name=".Addpramotion5366Activity"
+            android:name=".Huawei"
             android:exported="false" />
         <activity
             android:name=".Vivo"
@@ -70,12 +70,6 @@
             android:name=".AllPhoneCatagory"
             android:exported="false" />
         <activity
-
-
-            android:name=".thela"
-
-            android:exported="false" />
-        <activity
             android:name=".ShowActivity"
             android:exported="false" />
         <activity
@@ -88,7 +82,7 @@
             android:name=".CheckActivity"
             android:exported="false" />
         <activity
-            android:name=".AdminProfile"
+            android:name=".Addpramotion5366Activity"
             android:exported="false" />
         <activity
             android:name=".AdminRegister"
@@ -112,7 +106,7 @@
             android:name=".UpdateReview"
             android:exported="false" />
         <activity
-            android:name=".Huawei"
+            android:name=".AdminProfile"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
