@@ -31,13 +31,13 @@ public class AdminProfile extends AppCompatActivity {
         });
 
         CREATEOFFERS =(Button) findViewById(R.id.BBB);
-//        CREATEOFFERS.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent Z = new Intent(AdminProfile.this,thela.class);
-//                startActivity(Z);
-//            }
-//        });
+        CREATEOFFERS.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent Z = new Intent(AdminProfile.this,Addpramotion5366Activity.class);
+                startActivity(Z);
+            }
+        });
 
         QUICK =(Button) findViewById(R.id.DD);
         QUICK.setOnClickListener(new View.OnClickListener() {
