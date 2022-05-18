@@ -9,9 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TechnoMobiletest4">
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
+
         <activity
             android:name=".Checking5366Activity"
             android:exported="false" />
@@ -70,12 +68,6 @@
             android:name=".AllPhoneCatagory"
             android:exported="false" />
         <activity
-
-
-            android:name=".thela"
-
-            android:exported="false" />
-        <activity
             android:name=".ShowActivity"
             android:exported="false" />
         <activity
@@ -113,7 +105,10 @@
             android:exported="false" />
         <activity
             android:name=".Huawei"
-            android:exported="true">
+            android:exported="false"/>
+            <activity
+                android:name=".MainActivity"
+                android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
