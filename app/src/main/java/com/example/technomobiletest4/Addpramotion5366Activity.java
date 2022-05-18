@@ -45,6 +45,7 @@ public class Addpramotion5366Activity extends AppCompatActivity {
         String about = proabout.getText().toString();
         String type = protype.getText().toString();
 
+
         if (name.isEmpty()){
             proname.setError("Promotion  Name is required");
             proname.requestFocus();
@@ -60,6 +61,7 @@ public class Addpramotion5366Activity extends AppCompatActivity {
             protype.requestFocus();
             return;
         }
+        
 
         Promotion promotion = new Promotion(name,about,type);
 
