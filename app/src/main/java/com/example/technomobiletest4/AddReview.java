@@ -38,7 +38,7 @@ public class AddReview extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(TextUtils.isEmpty(review.getText().toString())){
-                    review.setError("Review is compulsory");
+                    review.setError("Review is Compulsory");
                     return;
                 }
 
