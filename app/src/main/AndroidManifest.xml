@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TechnoMobiletest4">
         <activity
+            android:name=".PhoneCounts"
+            android:exported="false" />
+        <activity
             android:name=".cal"
             android:exported="false" />
         <activity
