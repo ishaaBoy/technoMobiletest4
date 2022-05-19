@@ -109,6 +109,7 @@ public class MoreActivity extends AppCompatActivity {
     private Button mSaveBtn, mShowBtn;
     private FirebaseFirestore db;
     private String uTitle, uDesc , uId;
+    private Button target;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -119,6 +120,7 @@ public class MoreActivity extends AppCompatActivity {
         mDesc = findViewById(R.id.edit_desc);
         mSaveBtn = findViewById(R.id.save_btn);
         mShowBtn = findViewById(R.id.showall_btn);
+        target =findViewById(R.id.ca);
 
         db= FirebaseFirestore.getInstance();
 
@@ -140,6 +142,17 @@ public class MoreActivity extends AppCompatActivity {
                 startActivity(new Intent(MoreActivity.this , ShowActivity.class));
             }
         });
+
+
+        target.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent p = new Intent(MoreActivity.this,cal.class);
+                startActivity(p);
+            }
+        });
+
+
 
 
         mSaveBtn.setOnClickListener(new View.OnClickListener() {
