@@ -13,6 +13,8 @@ public class AdminProfile extends AppCompatActivity {
     private Button createPost;
     private Button CREATEOFFERS;
     private Button QUICK;
+    private Button counts;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +47,15 @@ public class AdminProfile extends AppCompatActivity {
             public void onClick(View view) {
                 Intent X = new Intent(AdminProfile.this,MoreActivity.class);
                 startActivity(X);
+            }
+        });
+
+        counts = (Button) findViewById(R.id.count);
+        counts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent c = new Intent(AdminProfile.this,PhoneCounts.class);
+                startActivity(c);
             }
         });
 
